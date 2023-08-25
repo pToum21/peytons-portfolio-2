@@ -1,0 +1,77 @@
+* {
+    /* outline: red dashed 2px; */
+}
+body {
+    max-width: 1900px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li a {
+    display: inline;
+
+}
+
+.hero {
+    background-image: url(./images/lights-strip-color-range-wallpaper-preview.jpg);
+    height: 223px;
+    width: 100%;
+
+}
+main article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+
+section h2 {
+    border-right: 10px solid black;
+}
+
+section {
+    display: flex;
+    
+    
+}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+article div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+ .brick {
+    flex-basis: 100%;
+ }
+
+  #weather-app {
+    background-image: url(../assets/images/rainnnn.avif);
+    height: 300px;
+    width: 100%;
+    min-width: fit-content;
+    flex-basis: 50%;
+    
+ } 
+ #to-do-list {
+    height: 300px;
+    width: 100%;
+    flex-basis: 50%;
+ }
+
+
+ 
