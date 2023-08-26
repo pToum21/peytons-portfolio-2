@@ -1,18 +1,32 @@
 * {
     /* outline: red dashed 2px; */
 }
-body {
-    max-width: 1900px;
-}
+
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(27, 31, 29);
+
 
 }
 
-nav ul li a {
+header h1 {
+    height: 76%;
+    background-color: lightblue;
+    padding-left: 40px;
+    height: 50px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav a {
     display: inline;
+    color: lightblue;
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -22,28 +36,81 @@ nav ul li a {
     width: 100%;
 
 }
-main article{
+
+.avatar {
+
+    width: 300px;
+    height: 300px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: rgb(17, 110, 163);
+    max-width: 84%;
+}
+
+main article {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-height: fit-content;
-    max-width: fit-content;
+    width: 100%;
+    max-width: 75%;
 }
 
+main article a {
+    display: block;
+    flex-basis: 48%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    border: 5px solid lightblue;
+    margin: 5px;
+}
+
+.horiseon {
+    flex-basis: 100%;
+    min-height: 300px;
+    background-image: url('./images/digital-marketing-meeting.jpg');
+}
+
+.weather-app {
+    background-image: url('./images/rainnnn.avif');
+}
+
+.slot-machine {
+    background-image: url(./images/best-slots-in-las-vegas-hero.jpg);
+}
+
+.to-do-list {
+    background-image: url(./images/to\ do\ list\ pic.jpg);
+}
+
+.music-player {
+    background-image: url(./images/dj\ img.jpg);
+}
 
 section h2 {
-    border-right: 10px solid black;
+    border-right: 5px solid lightblue;
+    margin-right: 30px;
+
 }
 
 section {
     display: flex;
-    
-    
 }
+
 
 h2 {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 180px;
+    padding-right: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    color: rgb(17, 110, 163);
+
 }
 
 
@@ -52,26 +119,54 @@ article div {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
- .brick {
-    flex-basis: 100%;
- }
+h3 {
+    display: flex;
+}
 
-  #weather-app {
-    background-image: url(../assets/images/rainnnn.avif);
-    height: 300px;
-    width: 100%;
-    min-width: fit-content;
-    flex-basis: 50%;
-    
- } 
- #to-do-list {
-    height: 300px;
-    width: 100%;
-    flex-basis: 50%;
- }
+a h3 {
+    padding-top: 300px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightblue;
+    text-decoration: none;
+}
+
+.contacts {
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightblue;
+    align-items: center;
 
 
- 
+}
+
+.contacts a {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightblue;
+    align-items: center;
+
+}
+
+main footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 1350px){
+    main article a {
+        flex-basis: 100%;
+        max-height: 20%;
+    }
+    h2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
