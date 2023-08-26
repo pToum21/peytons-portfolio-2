@@ -32,22 +32,28 @@ nav a {
 
 .hero {
     background-image: url(./images/lights-strip-color-range-wallpaper-preview.jpg);
-    height: 223px;
+    height: 375px;
     width: 100%;
+
 
 }
 
 .avatar {
 
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
 }
 
-p {
+div p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     color: rgb(17, 110, 163);
-    max-width: 84%;
+    max-width: 86%;
+    padding-left: 25px;
+}
+
+article {
+    padding-left: 25px;
 }
 
 main article {
@@ -94,6 +100,7 @@ main article a {
 section h2 {
     border-right: 5px solid lightblue;
     margin-right: 30px;
+    width: 100px;
 
 }
 
@@ -103,8 +110,6 @@ section {
 
 
 h2 {
-    display: flex;
-    flex-wrap: wrap;
     margin-left: 180px;
     padding-right: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -160,11 +165,12 @@ main footer {
 
 }
 
-@media screen and (max-width: 1350px){
+@media screen and (max-width: 1350px) {
     main article a {
         flex-basis: 100%;
         max-height: 20%;
     }
+
     h2 {
         display: flex;
         flex-direction: column;
