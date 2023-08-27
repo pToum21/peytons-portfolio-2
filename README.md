@@ -4,7 +4,7 @@
 
 -Created a portfolio webpage from scracth using HTML and CSS
 -added media queries to make the application have a responsive layout
--created a working nav bar
+=created a working nav bar
 -added a work area with a work hover effect and working links
 -A portfolio for future job applications
 
