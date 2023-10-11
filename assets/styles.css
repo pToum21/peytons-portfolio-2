@@ -86,8 +86,10 @@ main article a {
     background-image: url('./images/rainnnn.avif');
 }
 
-.slot-machine {
-    background-image: url(./images/best-slots-in-las-vegas-hero.jpg);
+.Bookies {
+    background-image: url(./images/Bookies-Bank.png);
+    background-size:cover;
+    background-position-y: 20%;
 }
 
 .to-do-list {
